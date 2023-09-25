@@ -1,0 +1,13 @@
+import java.time.LocalTime; // import the LocalTime class
+
+public class Main {
+  public static void main(String[] args) {
+    LocalTime myObj = LocalTime.now();
+    System.out.println(myObj);
+  }
+}
+//The provided Java code uses the LocalTime class to get the current time and then prints it. This code will output
+the current time in the format "HH:mm:ss.nnnnnnnnn," where "HH" represents the hour (00-23), "mm" represents the minute (00-59),
+"ss" represents the second (00-59), and "nnnnnnnnn" represents nanoseconds (000000000-999999999).
+
+When you run this code, it will display the current local time. Here's an example of what the output might look like:
