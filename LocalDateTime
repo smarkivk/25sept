@@ -1,0 +1,31 @@
+import java.time.LocalDateTime; // import the LocalDateTime class
+
+public class Main {
+  public static void main(String[] args) {
+    LocalDateTime myObj = LocalDateTime.now();
+    System.out.println(myObj);
+  }
+}
+//The provided Java code uses the LocalDateTime class to get the current date and time and then prints it. 
+This code will output the current date and time in the format "yyyy-MM-ddTHH:mm:ss.nnnnnnnnn," where:
+
+"yyyy" represents the year (four digits).
+"MM" represents the month (01-12).
+"dd" represents the day of the month (01-31).
+"T" is a separator between the date and time.
+"HH" represents the hour (00-23).
+"mm" represents the minute (00-59).
+"ss" represents the second (00-59).
+"nnnnnnnnn" represents nanoseconds (000000000-999999999).
+When you run this code, it will display the current local date and time. Here's an example of what the output might look like:
+
+makefile
+Copy code
+2023-05-12T14:30:45.123456789
+This output represents May 12, 2023, at 2:30:45 PM, 123 milliseconds, 456 microseconds, and 789 nanoseconds. The actual date and time values will change each time you run the program, reflecting the current date and time.
+
+
+
+
+
+
